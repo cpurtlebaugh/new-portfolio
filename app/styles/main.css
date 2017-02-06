@@ -150,6 +150,10 @@ body {
   padding-top: 3em;
 }
 
+.list-inline > li {
+  padding:0;
+}
+
 /********************************************************/
 /*             Sections - individual classes             */
 /********************************************************/
@@ -229,19 +233,20 @@ h4 {
   /*background-color: green;*/
 }
 
-.project-description {
-  background-color: green;
-  /*width: 603.984px;*/
-  /*height: 341px;*/
-}
 
 .project-description, h3 {
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 2%;
+  padding-bottom: 2%;
   margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.project-description, p {
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .project-div {
@@ -317,6 +322,8 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
   -moz-border-radius: 3px;
   border-radius: 3px;
   border:0 none;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .btn:hover {
   color:#000;
@@ -339,7 +346,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
   background: rgba(255,255,255,.8);
 }
 .btn-primary {
-  background: rgba(255,255,255,.2);
+    background: rgba(255,255,255,.2);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active {
   background: rgba(255,255,255,.5);
@@ -533,9 +540,15 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
     margin-top: 4em;
   }
 
-  .project-description {
-    height: 341px;
+  .project-description, h3 {
+    padding-top: 0px;
   }
+
+  .project-description, p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
 
   .contact-list, a, .btn {
     padding-left: 12px;
