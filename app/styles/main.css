@@ -375,10 +375,13 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 }
 
 .about-photo {
-  max-width: 50%;
+  max-width: 60%;
   border: 3px solid white;
-  margin-bottom: 2em;
   margin-top: 2em;
+}
+
+#about, h4 {
+  font-size: 12px;
 }
 
 
@@ -540,6 +543,10 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
     margin-top: 4em;
   }
 
+  #about, h4 {
+    font-size: 14px;
+  }
+
   .project-description, h3 {
     padding-top: 0px;
   }
@@ -548,7 +555,6 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
     font-size: 14px;
     font-weight: bold;
   }
-
 
   .contact-list, a, .btn {
     padding-left: 12px;
