@@ -531,7 +531,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
   }
 
   .skill-svg {
-    max-width: 60%;
+    max-width: 40%;
   }
 
   #about, #skills {
